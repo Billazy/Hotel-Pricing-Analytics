@@ -1,34 +1,52 @@
-# Hotel-Pricing-Analytics
-This project explores a complete end‑to‑end SQL analysis of a hotel pricing system. Below is the full list of business questions addressed through SQL Server queries.
+# Hotel Pricing Analytics
+Analyse complète d’un système de tarification hôtelière en SQL Server.
 
+Ce projet propose une analyse end‑to‑end visant à répondre à plusieurs questions métiers autour :
+- de la structure des hôtels,
+- de la tarification,
+- des revenus potentiels,
+- de l’évolution des prix dans le temps.
 
-1. Data Understanding
-How many hotels exist in the dataset?
+---
 
-How many room types are available?
+## 1. Data Understanding
+Analyse de la structure des données hôtelières.
 
-How many rooms does each hotel have?
+- Combien d’hôtels existent dans le dataset ?
+- Combien de types de chambres sont disponibles ?
+- Combien de chambres possède chaque hôtel ?
+- Quelle est la répartition des types de chambres par hôtel ?
 
-What is the distribution of room types per hotel?
+---
 
-2. Pricing Analysis
-What is the average room price per hotel?
+## 2. Pricing Analysis
+Analyse des prix par hôtel et par type de chambre.
 
-What is the average price per room type?
+- Quel est le prix moyen des chambres par hôtel ?
+- Quel est le prix moyen par type de chambre ?
+- Quel est le type de chambre le plus premium dans chaque hôtel ?
 
-What is the most premium room type in each hotel?
+---
 
-3. Time‑based Analysis
-What is the potential revenue per hotel per pricing period?
+## 3. Time‑based Analysis
+Analyse temporelle des prix et revenus.
 
-What is the most profitable period for each hotel?
+- Quel est le revenu potentiel par hôtel et par période de tarification ?
+- Quelle est la période la plus rentable pour chaque hôtel ?
 
-4. Revenue Analysis
-Which hotel generates the highest potential revenue?
+---
 
-Which room type generates the most revenue per hotel?
+## 4. Revenue Analysis
+Analyse des revenus potentiels.
 
-5. Price Evolution
-How do prices evolve across periods?
+- Quel hôtel génère le revenu potentiel le plus élevé ?
+- Quel type de chambre génère le plus de revenus par hôtel ?
 
-Which hotel increases its prices the most between two periods?
+---
+
+## 5. Price Evolution
+Étude de l’évolution des prix.
+
+- Comment les prix évoluent‑ils entre les différentes périodes ?
+- Quel hôtel augmente le plus ses prix entre deux périodes ?
+
